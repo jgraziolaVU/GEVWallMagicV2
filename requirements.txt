@@ -1,0 +1,50 @@
+# ◈ Parallax Studio v1.2 - Requirements
+# Your Photos. Alive.
+#
+# NOTE: Most users should use install.bat instead of this file.
+# This is for manual installation only.
+
+# ============================================
+# Core Application
+# ============================================
+streamlit>=1.31.0
+Pillow>=10.0.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# ============================================
+# Model Downloads
+# ============================================
+huggingface-hub>=0.20.0
+
+# ============================================
+# Gaussian Splatting
+# ============================================
+plyfile>=1.0.0
+gsplat>=0.1.0
+
+# ============================================
+# Qwen-Image-Edit
+# ============================================
+# Install diffusers from GitHub for latest Qwen support:
+# pip install git+https://github.com/huggingface/diffusers
+
+# ============================================
+# SHARP
+# ============================================
+# Clone and install from:
+# git clone https://github.com/apple/ml-sharp
+# cd ml-sharp && pip install -r requirements.txt && pip install -e .
+
+# ============================================
+# PyTorch with CUDA
+# ============================================
+# Install separately with CUDA support:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+# ============================================
+# System Requirements (install separately)
+# ============================================
+# FFmpeg:
+#   conda install -c conda-forge ffmpeg
+#   OR download from https://ffmpeg.org
